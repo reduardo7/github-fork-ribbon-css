@@ -54,9 +54,6 @@
 
     <!-- START COPYING HERE -->
     <link rel="stylesheet" href="gh-fork-ribbon.css">
-    <!--[if lt IE 9]>
-        <link rel="stylesheet" href="gh-fork-ribbon.ie.css">
-    <![endif]-->
     <!-- END COPYING HERE -->
 </head>
 <body>
@@ -102,16 +99,13 @@
             Copy the following code into the <strong>&lt;head&gt;</strong> of your page:
         </p>
         <code>
-          &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" /&gt;<br/>
-          &lt;!--[if lt IE 9]&gt;<br/>
-              &nbsp;&nbsp;&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.ie.min.css" /&gt;<br/>
-          &lt;![endif]--&gt;
+          &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" /&gt;<br/>
         </code>
         <p>
             And this into the <strong>&lt;body&gt;</strong> of your page:
         </p>
         <code>
-          &lt;a class="github-fork-ribbon" href="http://url.to-your.repo" title="Fork me on GitHub"&gt;Fork me on GitHub&lt;/a&gt;
+          &lt;a class="github-fork-ribbon" href="http://url.to-your.repo" data-ribbon="Fork me on GitHub" title="Fork me on GitHub"&gt;Fork me on GitHub&lt;/a&gt;
         </code>
 
         <h2>About</h2>
@@ -122,11 +116,11 @@
         </p>
     </div>
     <!-- BOTTOM RIGHT RIBBON: START COPYING HERE -->
-    <a class="github-fork-ribbon right-bottom fixed" href="https://github.com/simonwhitaker/github-fork-ribbon-css" title="Fork me on GitHub">Fork me on GitHub</a>
+    <a class="github-fork-ribbon right-bottom fixed" href="https://github.com/simonwhitaker/github-fork-ribbon-css" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
     <!-- BOTTOM RIGHT RIBBON: END COPYING HERE -->
 
     <!-- BOTTOM LEFT RIBBON: START COPYING HERE -->
-    <a class="github-fork-ribbon left-bottom fixed" href="https://github.com/simonwhitaker/github-fork-ribbon-css" title="Fork me on GitHub">Fork me on GitHub</a>
+    <a class="github-fork-ribbon left-bottom fixed" href="https://github.com/simonwhitaker/github-fork-ribbon-css" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
     <!-- BOTTOM LEFT RIBBON: END COPYING HERE -->
 </body>
 </html>
